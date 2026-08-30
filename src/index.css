@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Poppins', sans-serif;
+  --font-sans: 'Inter', sans-serif;
+
+  --color-primary: #4CAF50;
+  --color-primary-dark: #388E3C;
+  --color-secondary: #81C784;
+  --color-secondary-light: #E8F5E9;
+  --color-background-app: #F8FAFC;
+  --color-surface: #FFFFFF;
+  --color-text-main: #263238;
+  --color-text-muted: #607D8B;
+  --color-app-error: #EF5350;
+  --color-app-success: #43A047;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #263238;
+  background-color: #0f172a;
+}
+
+h1, h2, h3, h4, .font-heading {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Custom Hide Scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Safe bottom margin for mobile floating nav */
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 80px);
+}
+

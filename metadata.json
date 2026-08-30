@@ -1,0 +1,7 @@
+{
+  "name": "Huellas Felices",
+  "description": "App móvil para encontrar mascotas ideales y gestionar adopciones responsables con tarjetas interactivas swipe, agendamiento de visitas y asistente IA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
